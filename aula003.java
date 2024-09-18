@@ -1,5 +1,7 @@
 //declaracao de uma classe publica
 public class aula003{
+    private static final char J = 0;
+
     //metodo principal(ponto de entrada)
     public static void main(String[] args) {
         //corpo do metodo - onde o codigo e' executado
