@@ -8,6 +8,7 @@ public class aula004Exercicio1 {
         
         Scanner teclado = new Scanner(System.in);
 
+    
         // Entrada do número inteiro
         System.out.println("Insira um número inteiro: ");
         num1 = teclado.nextInt();
