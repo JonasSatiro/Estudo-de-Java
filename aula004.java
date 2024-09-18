@@ -1,8 +1,7 @@
-
 import java.util.Scanner;
 
-public class aula004 {
-    public static void main(String[] args) {
+public class Aula004 {
+    public static  void  main(String[] args) {
         //Operadores numericos
         // Soma (+), Subtração (-), Multiplicação (*), Divisão (/), Módulo (%)
         int valor;
@@ -18,7 +17,7 @@ public class aula004 {
         System.out.println(valor/multiplicador);
 
         System.out.println(valor*multiplicador);
-
+ 
         System.out.println(valor-multiplicador);
 
         System.out.println(valor+multiplicador);
