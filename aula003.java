@@ -1,19 +1,10 @@
 //declaracao de uma classe publica
 public class aula003{
-    private static final char J = 0;
 
     //metodo principal(ponto de entrada)
     public static void main(String[] args) {
         //corpo do metodo - onde o codigo e' executado
-        byte bits8 = 8;
-        short bits16 = 16;
-        int bits32 = 32;
-        long bits64 = 64;
-        float bits32FlutuantePrecisao = 32;
-        double peso = 90.1;
-        char umUnicoCaracter = J;
-        
-
+       
         /*
         Tipos Primitivos:
 
@@ -24,5 +15,21 @@ public class aula003{
 
         */
 
+        byte bits8 = 8;
+        short bits16 = 16;
+        int bits32 = 32;
+        long bits64 = 64;
+        float bits32FlutuantePrecisao = 32;
+        double peso = 90.1;
+        char umUnicoCaracter = 'a';
+        
+/*
+        Tipos nao Primitivos:
+
+            
+
+        */
+      String nome = "Jonas S. Gomes";
+      System.out.println(nome);
     }
 }
